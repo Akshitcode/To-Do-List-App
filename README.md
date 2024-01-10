@@ -21,4 +21,4 @@ Instruction on how to setup and run the application:
 6. Organize Tasks
 7. Regularly Review and Update
 
-https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.13_98d8a35a.jpg
+![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.13_98d8a35a.jpg)
