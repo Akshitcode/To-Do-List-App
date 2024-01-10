@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">To-Do List App</string>
+    <string name="home_label">Home</string>
+    <string name="task_category_label">Task Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment_label">Home Fragment</string>
+    <string name="category_fragment_label">Category Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="task_description">  Task Description...</string>
+    <string name="title">  Title</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="set_due_date">Set Due Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="category">Category:</string>
+    <string name="status">Status:</string>
+    <string name="query">What do you want to perform?</string>
+    <string name="positiveTitle">Delete</string>
+    <string name="negativeTitle">Edit</string>
+
+</resources>
