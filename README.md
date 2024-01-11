@@ -16,20 +16,22 @@ Technologies Used:
 2. Database: SQLite
 3. IDE: Android Studio
 
-Instruction on how to setup and run the application:
+Functionality in the application and how to run the application:
 
 1. Explore the Interface
 2. Create Your First To-Do
 3. Set Due Dates and Priorities
 4. Task Status
 5. Edit and delete the tasks
-6. Catogaries tasks
+6. Categorise tasks
 7. Explore Additional Features
 8. Organize Tasks
 9. Regularly Review and Update
 
 
 I'm also attaching few ss of the application
+
+
 ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/first%20Image.jpg)   ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Second%20Image.jpg)
 
 ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Third%20Image.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Fourth%20Image.jpg)
