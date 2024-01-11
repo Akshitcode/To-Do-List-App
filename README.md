@@ -11,21 +11,31 @@ Completion Status: Mark tasks as complete to track progress.
 User-Friendly Interface: Intuitive design for ease of use and seamless task management.
 
 
+Technologies Used: 
+1. Language: Java, XML
+2. Database: SQLite
+3. IDE: Android Studio
+
 Instruction on how to setup and run the application:
 
 1. Explore the Interface
 2. Create Your First To-Do
 3. Set Due Dates and Priorities
 4. Task Status
-5. Explore Additional Features
-6. Organize Tasks
-7. Regularly Review and Update
+5. Edit and delete the tasks
+6. Catogaries tasks
+7. Explore Additional Features
+8. Organize Tasks
+9. Regularly Review and Update
 
-![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.13_98d8a35a.jpg)   ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.14_14e8d5fb.jpg)
 
-![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.14_3050a76c.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.14_eefb657f.jpg)
+I'm also attaching few ss of the application
+![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/first%20Image.jpg)   ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Second%20Image.jpg)
 
-![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.15_009cef9a.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.15_976a0c61.jpg)
+![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Third%20Image.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Fourth%20Image.jpg)
 
-![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.15_d1469276.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/WhatsApp%20Image%202024-01-10%20at%2015.41.16_7783c551.jpg)
+![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Fifth%20Image.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Sixth%20Image.jpg)
 
+![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Seventh%20Image.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Eighth%20Image.jpg)
+
+![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Ninth%20Image.jpg)  ![Alt Text](https://github.com/Akshitcode/To-Do-List-App/blob/master/Tenth%20Image.jpg)
