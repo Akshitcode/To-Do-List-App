@@ -55,6 +55,7 @@ public class CategoryFragment extends Fragment implements TaskRecyclerAdapter.Ta
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        setTitleForCategories("Task Categories");
         view = inflater.inflate(R.layout.task_category, container, false);
 
 
@@ -76,54 +77,63 @@ public class CategoryFragment extends Fragment implements TaskRecyclerAdapter.Ta
         personalTask.findViewById(R.id.personalTasks).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Personal Tasks");
                 showTheTasks("Personal");
             }
         });
         alltask.findViewById(R.id.allTasks).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("All Tasks");
                 showTheTasks("All");
             }
         });
         workoutTask.findViewById(R.id.workoutTasks).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Workout Tasks");
                 showTheTasks("Workout");
             }
         });
         workTask.findViewById(R.id.workTask).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Work Tasks");
                 showTheTasks("Work");
             }
         });
         meetingTask.findViewById(R.id.meetingTask).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Meeting Tasks");
                 showTheTasks("Meeting");
             }
         });
         studyTask.findViewById(R.id.studyTask).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Study Tasks");
                 showTheTasks("Study");
             }
         });
         defaultTask.findViewById(R.id.defaultTasks).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Default Tasks");
                 showTheTasks("Default");
             }
         });
         partyTask.findViewById(R.id.partyTask).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Party Tasks");
                 showTheTasks("Party");
             }
         });
         shoppingTask.findViewById(R.id.shoppingTask).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
+                setTitleForCategories("Shopping Tasks");
                 showTheTasks("Shopping");
             }
         });
@@ -289,6 +299,14 @@ public class CategoryFragment extends Fragment implements TaskRecyclerAdapter.Ta
         }
     }
 
+    private void setTitleForCategories(String title) {
+        MainActivity mainActivity = (MainActivity) getActivity();
+
+        if (mainActivity != null && mainActivity instanceof MainActivity) {
+
+            mainActivity.SetTitle(title);
+        }
+    }
     private void handleBackPressed() {
         if(view.findViewById(R.id.recyclerViewId1).getVisibility() == View.VISIBLE){
             categoriresView.setVisibility(View.VISIBLE);

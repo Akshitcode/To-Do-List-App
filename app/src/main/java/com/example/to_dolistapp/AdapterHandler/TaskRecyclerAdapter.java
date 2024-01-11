@@ -48,7 +48,7 @@ public class TaskRecyclerAdapter extends RecyclerView.Adapter<TaskViewHolder> {
     public void onBindViewHolder(@NonNull TaskViewHolder holder, int position) {
         holder.getTxtTitle().setText(taskClasses.get(position).getTaskTitle());
         holder.getTxtDate().setText(taskClasses.get(position).getDate());
-        holder.getTxtDescription().setText(taskClasses.get(position).getDescription()+"...");
+        holder.getTxtDescription().setText(taskClasses.get(position).getDescription().substring(0,10)+"...");
         holder.getTxtStatus().setText(taskClasses.get(position).getStatus());
 
         if(taskClasses.get(position).getStatus().equals("Completed")){

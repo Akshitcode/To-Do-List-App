@@ -42,7 +42,7 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    private TextView txtStatus;
+    private TextView txtStatus, txtNewEdit;
     private EditText edtTitle, edtDescription, edtDate, edtTime;
     private Button btnCancel, btnBack, btnNext, btnSave;
     private LinearLayout btnSetDate, btnSetTime, categoryLayout, statusLayout;
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         edtTime = (EditText) view.findViewById(R.id.editTextTime);
         edtDate = (EditText) view.findViewById(R.id.editTextDate);
         txtStatus = (TextView) view.findViewById(R.id.status);
-
+        txtNewEdit = (TextView) view.findViewById(R.id.txtNewEdit);
         btnSetDate = (LinearLayout) view.findViewById(R.id.setDate);
         btnSetTime = (LinearLayout) view.findViewById(R.id.setTime);
         categoryLayout= (LinearLayout) view.findViewById(R.id.categoryLayout);
@@ -120,6 +120,8 @@ public class MainActivity extends AppCompatActivity {
         btnNext = (Button) view.findViewById(R.id.next);
 
 
+        txtNewEdit.setText("Add New Task");
+
         categorySpinner = (Spinner) view.findViewById(R.id.categorySpin);
 
 
@@ -130,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
             edtDate.setText(taskClass1.getDate());
             edtTime.setText(taskClass1.getTime());
             txtStatus.setText(taskClass1.getStatus());
+            txtNewEdit.setText("Edit Task");
             taskId = taskClass1.getId();
         }
 
@@ -318,5 +321,9 @@ public class MainActivity extends AppCompatActivity {
     public void onFragmentInteraction(TaskClass taskClass) {
 
         showAddTaskDialog(taskClass);
+    }
+    public void SetTitle(String title) {
+
+        setTitle(title);
     }
 }

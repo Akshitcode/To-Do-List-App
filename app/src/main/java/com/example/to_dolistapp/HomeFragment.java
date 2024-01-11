@@ -189,6 +189,7 @@ public class HomeFragment extends Fragment implements TaskRecyclerAdapter.TaskIs
         edtDescription.setText(taskClass.getDescription());
         edtDate.setText(taskClass.getDate());
         edtTime.setText(taskClass.getTime());
+        btnStatus.setBackgroundColor(Color.rgb(145,0,145));
         statusUpdate.setText(taskClass.getStatus());
         if(statusUpdate.getText().toString().equals("Completed")) {
             btnStatus.setText("Completed");
@@ -203,6 +204,7 @@ public class HomeFragment extends Fragment implements TaskRecyclerAdapter.TaskIs
                 if(statusUpdate.getText().toString().equals("New")){
                     statusUpdate.setText("In-Progress");
                     btnStatus.setText("Mark as finish");
+
                 }else if(statusUpdate.getText().toString().equals("In-Progress")){
                     statusUpdate.setText("Completed");
                     btnStatus.setText("Completed");
